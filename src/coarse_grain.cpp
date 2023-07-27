@@ -1,4 +1,5 @@
 #include <vector>
+#include <iostream>
 #include "coarse_grain.h"
 #include "pairwise_evidence.h"
 #include "helper_functions.h"
@@ -11,7 +12,10 @@ void coarse_grain_process(vector<vector<double>> &x) {
 
     while (x.size() > 1) {
         vector<vector<double>> x_new(x.size() / 2, vector<double>(x[0].size(), 0)); // Initialize x_new
+        
+        std::cout << "Computing pairwise evidence..." << std::endl;
         vector<double> pairwise_evidence = compute_pairwise_evidence(x);
+        std::cout << "Finished computing pairwise evidence." << std::endl;
         vector<pair<int, int>> pairs;
 
         int pair_index = 0;
@@ -33,6 +37,8 @@ void coarse_grain_process(vector<vector<double>> &x) {
 
         x = x_new; // Prepare for the next iteration
         iteration++; // Increase iteration counter
+        
+	std::cout << "Finished iteration: " << iteration << std::endl;
     }
 }
 

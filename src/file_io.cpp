@@ -7,7 +7,7 @@
 
 std::vector<std::vector<double>> read_wolffcpp_ising_data(const std::string &T, int L) {
     std::vector<std::vector<double>> data;
-    std::string filename = "../../input/2dising_L=" + std::to_string(L) + "_T=" + T + ".txt";
+    std::string filename = "../input/2dising_L=" + std::to_string(L) + "_T=" + T + ".txt";
     std::ifstream file(filename);
     
     if (!file) {
@@ -31,7 +31,7 @@ std::vector<std::vector<double>> read_wolffcpp_ising_data(const std::string &T, 
 
 
 void write_pairs_to_file(const vector<pair<int, int>> &pairs, const string &filename) {
-    ofstream file("../../data/" + filename);
+    ofstream file("../data/" + filename);
     if (file.is_open()) {
         for (const auto &p : pairs) {
             file << p.first << ", " << p.second << "\n";
@@ -43,7 +43,7 @@ void write_pairs_to_file(const vector<pair<int, int>> &pairs, const string &file
 }
 
 void write_data_to_file(const vector<vector<double>> &data, const string &filename) {
-    ofstream file("../../data/" + filename);
+    ofstream file("../data/" + filename);
     if (file.is_open()) {
         for (const auto &row : data) {
             for (double val : row) {
