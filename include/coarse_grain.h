@@ -1,4 +1,6 @@
 #include <vector>
 
-void coarse_grain_process(std::vector<std::vector<double>> &x);
+using namespace std;
+
+void coarse_grain_process(const vector<vector<int>> &x, int rg_iterations);
 

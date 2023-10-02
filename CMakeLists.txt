@@ -11,5 +11,7 @@ add_executable(RG_Pairing
     src/pairwise_evidence.cpp
     src/helper_functions.cpp
     src/file_io.cpp
+    src/sample_binary_vars.cpp
+    src/timer.cpp
 )
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence
+# Install script for directory: /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

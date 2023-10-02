@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence
+CMAKE_SOURCE_DIR = /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build
+CMAKE_BINARY_DIR = /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RG_Pairing.dir/depend.make
@@ -72,72 +72,100 @@ include CMakeFiles/RG_Pairing.dir/flags.make
 CMakeFiles/RG_Pairing.dir/src/main.cpp.o: CMakeFiles/RG_Pairing.dir/flags.make
 CMakeFiles/RG_Pairing.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/RG_Pairing.dir/src/main.cpp.o: CMakeFiles/RG_Pairing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RG_Pairing.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RG_Pairing.dir/src/main.cpp.o -MF CMakeFiles/RG_Pairing.dir/src/main.cpp.o.d -o CMakeFiles/RG_Pairing.dir/src/main.cpp.o -c /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RG_Pairing.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RG_Pairing.dir/src/main.cpp.o -MF CMakeFiles/RG_Pairing.dir/src/main.cpp.o.d -o CMakeFiles/RG_Pairing.dir/src/main.cpp.o -c /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/main.cpp
 
 CMakeFiles/RG_Pairing.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RG_Pairing.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/main.cpp > CMakeFiles/RG_Pairing.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/main.cpp > CMakeFiles/RG_Pairing.dir/src/main.cpp.i
 
 CMakeFiles/RG_Pairing.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RG_Pairing.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/main.cpp -o CMakeFiles/RG_Pairing.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/main.cpp -o CMakeFiles/RG_Pairing.dir/src/main.cpp.s
 
 CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.o: CMakeFiles/RG_Pairing.dir/flags.make
 CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.o: ../src/coarse_grain.cpp
 CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.o: CMakeFiles/RG_Pairing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.o -MF CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.o.d -o CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.o -c /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/coarse_grain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.o -MF CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.o.d -o CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.o -c /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/coarse_grain.cpp
 
 CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/coarse_grain.cpp > CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/coarse_grain.cpp > CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.i
 
 CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/coarse_grain.cpp -o CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/coarse_grain.cpp -o CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.s
 
 CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o: CMakeFiles/RG_Pairing.dir/flags.make
 CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o: ../src/pairwise_evidence.cpp
 CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o: CMakeFiles/RG_Pairing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o -MF CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o.d -o CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o -c /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/pairwise_evidence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o -MF CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o.d -o CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o -c /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/pairwise_evidence.cpp
 
 CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/pairwise_evidence.cpp > CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/pairwise_evidence.cpp > CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.i
 
 CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/pairwise_evidence.cpp -o CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/pairwise_evidence.cpp -o CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.s
 
 CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.o: CMakeFiles/RG_Pairing.dir/flags.make
 CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.o: ../src/helper_functions.cpp
 CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.o: CMakeFiles/RG_Pairing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.o -MF CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.o.d -o CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.o -c /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/helper_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.o -MF CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.o.d -o CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.o -c /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/helper_functions.cpp
 
 CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/helper_functions.cpp > CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/helper_functions.cpp > CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.i
 
 CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/helper_functions.cpp -o CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/helper_functions.cpp -o CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.s
 
 CMakeFiles/RG_Pairing.dir/src/file_io.cpp.o: CMakeFiles/RG_Pairing.dir/flags.make
 CMakeFiles/RG_Pairing.dir/src/file_io.cpp.o: ../src/file_io.cpp
 CMakeFiles/RG_Pairing.dir/src/file_io.cpp.o: CMakeFiles/RG_Pairing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RG_Pairing.dir/src/file_io.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RG_Pairing.dir/src/file_io.cpp.o -MF CMakeFiles/RG_Pairing.dir/src/file_io.cpp.o.d -o CMakeFiles/RG_Pairing.dir/src/file_io.cpp.o -c /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/file_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RG_Pairing.dir/src/file_io.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RG_Pairing.dir/src/file_io.cpp.o -MF CMakeFiles/RG_Pairing.dir/src/file_io.cpp.o.d -o CMakeFiles/RG_Pairing.dir/src/file_io.cpp.o -c /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/file_io.cpp
 
 CMakeFiles/RG_Pairing.dir/src/file_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RG_Pairing.dir/src/file_io.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/file_io.cpp > CMakeFiles/RG_Pairing.dir/src/file_io.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/file_io.cpp > CMakeFiles/RG_Pairing.dir/src/file_io.cpp.i
 
 CMakeFiles/RG_Pairing.dir/src/file_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RG_Pairing.dir/src/file_io.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/src/file_io.cpp -o CMakeFiles/RG_Pairing.dir/src/file_io.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/file_io.cpp -o CMakeFiles/RG_Pairing.dir/src/file_io.cpp.s
+
+CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.o: CMakeFiles/RG_Pairing.dir/flags.make
+CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.o: ../src/sample_binary_vars.cpp
+CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.o: CMakeFiles/RG_Pairing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.o -MF CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.o.d -o CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.o -c /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/sample_binary_vars.cpp
+
+CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/sample_binary_vars.cpp > CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.i
+
+CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/sample_binary_vars.cpp -o CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.s
+
+CMakeFiles/RG_Pairing.dir/src/timer.cpp.o: CMakeFiles/RG_Pairing.dir/flags.make
+CMakeFiles/RG_Pairing.dir/src/timer.cpp.o: ../src/timer.cpp
+CMakeFiles/RG_Pairing.dir/src/timer.cpp.o: CMakeFiles/RG_Pairing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RG_Pairing.dir/src/timer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RG_Pairing.dir/src/timer.cpp.o -MF CMakeFiles/RG_Pairing.dir/src/timer.cpp.o.d -o CMakeFiles/RG_Pairing.dir/src/timer.cpp.o -c /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/timer.cpp
+
+CMakeFiles/RG_Pairing.dir/src/timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RG_Pairing.dir/src/timer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/timer.cpp > CMakeFiles/RG_Pairing.dir/src/timer.cpp.i
+
+CMakeFiles/RG_Pairing.dir/src/timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RG_Pairing.dir/src/timer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/src/timer.cpp -o CMakeFiles/RG_Pairing.dir/src/timer.cpp.s
 
 # Object files for target RG_Pairing
 RG_Pairing_OBJECTS = \
@@ -145,7 +173,9 @@ RG_Pairing_OBJECTS = \
 "CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.o" \
 "CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o" \
 "CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.o" \
-"CMakeFiles/RG_Pairing.dir/src/file_io.cpp.o"
+"CMakeFiles/RG_Pairing.dir/src/file_io.cpp.o" \
+"CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.o" \
+"CMakeFiles/RG_Pairing.dir/src/timer.cpp.o"
 
 # External object files for target RG_Pairing
 RG_Pairing_EXTERNAL_OBJECTS =
@@ -155,9 +185,11 @@ RG_Pairing: CMakeFiles/RG_Pairing.dir/src/coarse_grain.cpp.o
 RG_Pairing: CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o
 RG_Pairing: CMakeFiles/RG_Pairing.dir/src/helper_functions.cpp.o
 RG_Pairing: CMakeFiles/RG_Pairing.dir/src/file_io.cpp.o
+RG_Pairing: CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.o
+RG_Pairing: CMakeFiles/RG_Pairing.dir/src/timer.cpp.o
 RG_Pairing: CMakeFiles/RG_Pairing.dir/build.make
 RG_Pairing: CMakeFiles/RG_Pairing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable RG_Pairing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable RG_Pairing"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RG_Pairing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +201,6 @@ CMakeFiles/RG_Pairing.dir/clean:
 .PHONY : CMakeFiles/RG_Pairing.dir/clean
 
 CMakeFiles/RG_Pairing.dir/depend:
-	cd /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build/CMakeFiles/RG_Pairing.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build/CMakeFiles/RG_Pairing.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RG_Pairing.dir/depend
 

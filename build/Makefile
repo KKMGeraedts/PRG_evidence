@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence
+CMAKE_SOURCE_DIR = /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build
+CMAKE_BINARY_DIR = /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build/CMakeFiles /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build/CMakeFiles /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karelgeraedts/Documents/uni/Master_Theses/code/RG/PRG_evidence/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karelgeraedts/Documents/uni/Master_Theses/code/PRG_evidence/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -249,6 +249,54 @@ src/pairwise_evidence.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RG_Pairing.dir/build.make CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.s
 .PHONY : src/pairwise_evidence.cpp.s
 
+src/sample_binary_vars.o: src/sample_binary_vars.cpp.o
+.PHONY : src/sample_binary_vars.o
+
+# target to build an object file
+src/sample_binary_vars.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RG_Pairing.dir/build.make CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.o
+.PHONY : src/sample_binary_vars.cpp.o
+
+src/sample_binary_vars.i: src/sample_binary_vars.cpp.i
+.PHONY : src/sample_binary_vars.i
+
+# target to preprocess a source file
+src/sample_binary_vars.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RG_Pairing.dir/build.make CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.i
+.PHONY : src/sample_binary_vars.cpp.i
+
+src/sample_binary_vars.s: src/sample_binary_vars.cpp.s
+.PHONY : src/sample_binary_vars.s
+
+# target to generate assembly for a file
+src/sample_binary_vars.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RG_Pairing.dir/build.make CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.s
+.PHONY : src/sample_binary_vars.cpp.s
+
+src/timer.o: src/timer.cpp.o
+.PHONY : src/timer.o
+
+# target to build an object file
+src/timer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RG_Pairing.dir/build.make CMakeFiles/RG_Pairing.dir/src/timer.cpp.o
+.PHONY : src/timer.cpp.o
+
+src/timer.i: src/timer.cpp.i
+.PHONY : src/timer.i
+
+# target to preprocess a source file
+src/timer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RG_Pairing.dir/build.make CMakeFiles/RG_Pairing.dir/src/timer.cpp.i
+.PHONY : src/timer.cpp.i
+
+src/timer.s: src/timer.cpp.s
+.PHONY : src/timer.s
+
+# target to generate assembly for a file
+src/timer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RG_Pairing.dir/build.make CMakeFiles/RG_Pairing.dir/src/timer.cpp.s
+.PHONY : src/timer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -273,6 +321,12 @@ help:
 	@echo "... src/pairwise_evidence.o"
 	@echo "... src/pairwise_evidence.i"
 	@echo "... src/pairwise_evidence.s"
+	@echo "... src/sample_binary_vars.o"
+	@echo "... src/sample_binary_vars.i"
+	@echo "... src/sample_binary_vars.s"
+	@echo "... src/timer.o"
+	@echo "... src/timer.i"
+	@echo "... src/timer.s"
 .PHONY : help
 
 

@@ -9,6 +9,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/RG_Pairing.dir/src/main.cpp.o.d"
   "CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o"
   "CMakeFiles/RG_Pairing.dir/src/pairwise_evidence.cpp.o.d"
+  "CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.o"
+  "CMakeFiles/RG_Pairing.dir/src/sample_binary_vars.cpp.o.d"
+  "CMakeFiles/RG_Pairing.dir/src/timer.cpp.o"
+  "CMakeFiles/RG_Pairing.dir/src/timer.cpp.o.d"
   "RG_Pairing"
   "RG_Pairing.pdb"
 )
